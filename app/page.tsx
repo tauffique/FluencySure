@@ -106,7 +106,7 @@ export default function LandingPage() {
                   <span>Watch Demo</span>
                 </button>
               </div>
-              <div className="flex items-center space-x-8 mt-10">
+              {/* <div className="flex items-center space-x-8 mt-10">
                 <div className="text-center">
                   <div className="font-sora text-3xl font-bold">500K+</div>
                   <div className="text-white/80 text-sm">Active Learners</div>
@@ -119,7 +119,7 @@ export default function LandingPage() {
                   <div className="font-sora text-3xl font-bold">4.9★</div>
                   <div className="text-white/80 text-sm">User Rating</div>
                 </div>
-              </div>
+  </div>*/}
             </div>
 
             {/* Right Content - Floating Cards */}
@@ -293,7 +293,7 @@ export default function LandingPage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-gradient-to-r from-indigo-600 to-purple-600">
+      {/* <section className="py-20 bg-gradient-to-r from-indigo-600 to-purple-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="text-center">
@@ -314,7 +314,7 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-      </section>
+</section>*/}
 
       {/* How It Works Section */}
       <section id="how-it-works" className="py-20 bg-gray-50">
@@ -407,7 +407,7 @@ export default function LandingPage() {
             Ready to Master a New Language?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Join 500,000+ learners worldwide and start your journey to fluency today. Free trial, no credit card required.
+            Join learners worldwide and start your journey to fluency today. Free trial, no credit card required.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/onboarding/language">
@@ -417,9 +417,9 @@ export default function LandingPage() {
               </button>
             </Link>
           </div>
-          <p className="text-white/70 mt-6 text-sm">
+          {/*<p className="text-white/70 mt-6 text-sm">
             ✓ No credit card required  •  ✓ 14-day free trial  •  ✓ Cancel anytime
-          </p>
+</p>*/}
         </div>
       </section>
 
@@ -429,11 +429,12 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
-                  </svg>
-                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" className="w-12 h-12">
+                <circle cx="25" cy="25" r="24" fill="#4f46e5"/>
+                <text x="50%" y="50%" textAnchor="middle" dy=".35em" fontSize="20" fontWeight="bold" fill="white">FX</text>
+                </svg>
+
+               
                 <span className="font-sora text-xl font-bold">FluencyX</span>
               </div>
               <p className="text-gray-400 text-sm">Master any language with AI-powered learning tools.</p>
