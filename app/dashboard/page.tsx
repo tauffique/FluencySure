@@ -33,12 +33,12 @@ export default function DashboardPage() {
             <div className="flex items-center space-x-3">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" className="w-12 h-12">
               <circle cx="25" cy="25" r="24" fill="#4f46e5"/>
-              <text x="50%" y="50%" textAnchor="middle" dy=".35em" fontSize="20" fontWeight="bold" fill="white">FS</text>
+              <text x="50%" y="50%" textAnchor="middle" dy=".35em" fontSize="20" fontWeight="bold" fill="white">FX</text>
               </svg>
 
              
               <span className="font-sora text-xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                FluencySure
+              FluencyX
               </span>
             </div>
             
